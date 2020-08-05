@@ -1,16 +1,10 @@
-# flask-chatbot
-Built on python 3.6
-Flask==0.11
-chatterbot==0.8.4
-SQLAlchemy==1.1.11
+#### Meet Candice, your personal, virtual healthcare chatbot! This is a web implementation of [ChatterBot](https://github.com/gunthercox/ChatterBot) using Flask.
 
-#### A web implementation of [ChatterBot](https://github.com/gunthercox/ChatterBot) using Flask.
+## Try it out yourself:
+ 1. Download the zip of this repository. 
+ 2. Open command prompt and locate folder. Run the conmand, 'pip install -r requirements.txt'
+ 3. Run *python train.py* (this might take a minute or two).
+ 4. Run *python run.py*
+ 5. Copy and paste the provided URL or click http://localhost:5000/ where it will go live.
+ 6. Happy chatting!
 
-## Local Setup:
- 1. Open command prompt and locate folder. run 'pip install -r requirements.txt'
- 2. Run *train.py*
- 3. Run *run.py*
- 4. Demo will be live at http://localhost:5000/
-
-## License
-This source is free to use, but ChatterBot does have a license which still applies and can be found on the [LICENSE](https://github.com/gunthercox/ChatterBot/blob/master/LICENSE) page.
